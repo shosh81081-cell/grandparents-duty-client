@@ -1,0 +1,25 @@
+body { font-family: Arial, sans-serif; margin: 0; background: #f6f6f6; color: #222; }
+.container { max-width: 960px; margin: 0 auto; padding: 16px; }
+.narrow { max-width: 420px; }
+header { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; }
+h1 { font-size: 22px; }
+nav { display: flex; gap: 8px; margin: 12px 0; }
+nav button.active { background: #2d5b8a; color: #fff; }
+.card { background: #fff; padding: 16px; border-radius: 8px; display: flex; flex-direction: column; gap: 10px; }
+label { display: flex; flex-direction: column; gap: 4px; }
+label.inline { flex-direction: row; align-items: center; margin-bottom: 8px; }
+input, select, button { font: inherit; padding: 6px 10px; }
+button { cursor: pointer; border: 1px solid #2d5b8a; background: #fff; border-radius: 4px; margin-inline-end: 4px; }
+button.link { border: none; background: none; color: #2d5b8a; text-decoration: underline; }
+button.small { font-size: 12px; }
+table { width: 100%; border-collapse: collapse; background: #fff; }
+th, td { padding: 8px; border-bottom: 1px solid #ddd; text-align: right; }
+tr.thursday { background: #fff8e6; }
+.badge { background: #c47f00; color: #fff; border-radius: 4px; padding: 0 6px; margin-inline-start: 6px; font-size: 12px; }
+.muted { color: #888; }
+.pager { display: flex; gap: 12px; align-items: center; justify-content: center; margin: 12px 0; }
+.alert { padding: 10px; border-radius: 6px; margin: 8px 0; background: #e8f0fb; }
+.alert.success { background: #e6f6e6; }
+.alert.error { background: #fde8e8; }
+.alert.conflict { background: #fff1d6; border: 2px solid #e09b00; }
+.hint { color: #888; font-size: 13px; }
